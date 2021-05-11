@@ -8,10 +8,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 import * as RBS from 'react-bootstrap';
-import {
-  faSearch,
-  faGavel,
-} from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faGavel } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './headerStyle.css';
 

@@ -13,13 +13,12 @@ import { compose } from 'redux';
 import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
 import * as RBS from 'react-bootstrap';
+import { faAt, faKey } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import makeSelectLogin from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 
-
-import { faAt, faKey } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './style.css';
 import bgImages from '../../images/bgImages/bgImage4.jpg';
 import sideImg from '../../images/bgImages/sideImage1.jpg';
@@ -63,10 +62,10 @@ export function Login() {
                   <b>SpanLaw</b>
                 </div>
                 <hr style={{ borderBottom: '1px solid red' }} />
-              <div style={{color:'#fae3bb'}}>
+                <div style={{ color: '#fae3bb' }}>
                   <h2>Your one stop solution for all the judiciary needs</h2>
                   <br />
-                <ul>
+                  <ul>
                     <li>Search the best lawyers around you.</li>
                     <li>Book a appointment with a consultants.</li>
                     <li>Book a appointment with a consultants.</li>
@@ -166,7 +165,8 @@ export function Login() {
           </RBS.Col>
         </RBS.Row>
       </RBS.Container>
-    </div>);
+    </div>
+  );
 }
 
 Login.propTypes = {
