@@ -43,7 +43,7 @@ export function Login() {
               minHeight: '500px',
               background: '#000',
               color: '#fff',
-              marginTop: '2%',
+              marginTop: '5%',
               boxShadow: '0px 0px 10px #5d5d5d',
             }}
           >

@@ -36,6 +36,30 @@ const GlobalStyle = createGlobalStyle`
 min-height: 100% !important;
 
   }
+  .pad-0{
+    padding: 0px 0px !important;
+}
+.bgClr-warning {
+  background-color: #fff2cb !important;
+}
+
+.bgClr-success {
+  background-color: #d4edda !important;
+}
+
+.bgClr-danger {
+  background-color: #ffc0c0 !important;
+}
+.hryellow {
+  margin-top: 2px; border-top: 1px solid #ffc107
+  }
+
+    .hrgray {
+      margin-top: 2px; border-top: 1px solid #d6d6d6
+      }
+      .noBg {
+        background-color: transparent !important;
+    }
 `;
 
 export default GlobalStyle;

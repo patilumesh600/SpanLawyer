@@ -12,17 +12,15 @@ import { compose } from 'redux';
 
 import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
-import * as RBS from 'react-bootstrap';
-import {
-  faEye,
-  faCalendarAlt,
-  faStar,
-} from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import makeSelectLandingPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 
+
+import * as RBS from 'react-bootstrap';
+import {faEye, faCalendarAlt, faStar } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import banImg1 from '../../images/bgImages/bgImage1.jpg';
 import banImg2 from '../../images/bgImages/bgImage2.jpg';
 import banImg3 from '../../images/bgImages/bgImage3.jpg';

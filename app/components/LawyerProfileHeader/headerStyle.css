@@ -1,0 +1,15 @@
+#hdrContainer .navbar {
+    color: #fff  !important;
+}
+#hdrContainer .helpIcon{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#hdrContainer .brandIcon{
+    font-size: 28px !important;
+}
+
+#hdrContainer  .navbar-dark .navbar-toggler{
+    border:none;
+}

@@ -1,0 +1,341 @@
+#lawyerDashboard {
+}
+
+#lawyerDashboard .userProfHeader{
+min-height: 100px;
+background-color: #ffc107;
+text-align: center;
+padding: 10px;
+border-radius: 3px;
+}
+
+#lawyerDashboard .scrollContent{
+    max-height: 560px;
+    overflow-y: auto;
+}
+
+
+#lawyerDashboard .dashHdrIcon{
+font-size: 20px;
+font-weight: 500;
+}
+
+#lawyerDashboard .dashHdrMenu{
+color:#515151;
+cursor: pointer;
+padding:3px;
+}
+
+#lawyerDashboard .dashHdrMenu .dashHdrMenuTxt{
+font-size: 12px;
+font-weight: 500;
+}
+
+
+
+#lawyerDashboard .dashHdrMenu .dashHdrActionBtn {
+font-size: 16px;
+font-weight: 400;
+min-height: 25px;
+padding: 5px 15px;
+}
+#lawyerDashboard .dashHdrMenu .dashHdrActionBtn.active,#lawyerDashboard .dashHdrMenu .dashHdrActionBtn:hover {
+background-color: #000;
+color: #ffc107;
+font-weight: 500;
+border-radius: 30px;
+}
+
+
+#lawyerDashboard .contactSec{
+padding:5px 10px;
+}
+
+#lawyerDashboard .contactSec .contHeading{
+font-size: 12px;
+font-weight: 500;
+}
+#lawyerDashboard .contactSec .contactList {
+padding:15px;
+}
+
+#lawyerDashboard .contactList .contactInit {
+border-radius: 10px;
+height: 30px;
+width: 30px;
+font-size: 14px;
+font-weight: bold;
+color:#000;
+border: 1px solid #515151;
+}
+
+#lawyerDashboard .dashContent{
+padding:5px 0px;
+/* border-left:1px solid #cecece; */
+border-top: none;
+}
+
+#lawyerDashboard .contentCardHdr{
+font-weight: 500;
+font-size: 14px;
+padding: 10px;
+}
+
+#lawyerDashboard .apptContianer:not(:last-child) {
+border-bottom: 1px solid #ffc107;
+padding: 10px 5px;
+font-size: 14px;
+}
+#lawyerDashboard .apptDateTime {
+font-weight: 500;
+}
+
+#lawyerDashboard .apptDateTime .apptDate ,#lawyerDashboard .apptDetails, #lawyerDashboard .cardHdr {
+float: left;
+}
+#lawyerDashboard .apptDateTime .apptTime {
+font-size: 12px;
+}
+
+#lawyerDashboard .apptFor{
+font-size: 14px;
+font-weight: 500;
+}
+
+#lawyerDashboard .dashContent .card-body {
+padding: 5px 15px;
+}
+
+#lawyerDashboard .dashContent .apptCaseType {
+font-size: 12px;
+color:#5c5c5c;
+}
+
+#lawyerDashboard .dashContent .card-body .apptActionBtn{
+text-decoration: none;
+font-size: 14px;
+color:#515151;
+}
+
+#lawyerDashboard .dashContent .card-body .apptActCont:not(:last-child) {
+border-right: 1px solid #515151;
+}
+
+#lawyerDashboard .dashContent .card-header,#lawyerDashboard .dashContactSec .card-header {
+background-color: #fff;
+color:#505050;
+padding: 5px 2px;
+}
+
+#lawyerDashboard .card-header.bdrWarning {
+border-left: 4px solid #ffc107;
+}
+#lawyerDashboard .card-header.bdrSuccess {
+border-left: 4px solid #28a745;
+}
+#lawyerDashboard .card-header.bdrDanger {
+border-left: 4px solid #dc3545;
+}
+#lawyerDashboard .card-header.bdrInfo {
+border-left: 4px solid #007bff;
+}
+
+#lawyerDashboard .card-header.bdrDark {
+    border-left: 4px solid #9c9c9c;
+    }
+
+
+#lawyerDashboard .dashContent .card-header .apptDateVal{
+font-size: 25px;
+font-weight: normal;
+padding-bottom: 5px;
+}
+#lawyerDashboard .dashContent .card-header .apptDateSc{
+color:#505050;
+border-right: 1px solid #e3e3e3;
+} 
+#lawyerDashboard .dashContent .card-header .apptDateSc .badge{
+background-color: transparent;
+} 
+#lawyerDashboard .dashContent .card-header .userMobDateTimeSec{
+font-size: 14px;
+}
+
+#lawyerDashboard .dashContent .card-header .appAmt {
+    font-size: 16px;
+}
+#lawyerDashboard .dashContent .card-header .appAmtActionSec{
+    padding: 0px;
+}
+
+#lawyerDashboard .dashContent .card-header .appDateYr , .apptCatSec{
+font-size: 12px;
+font-weight: normal;
+}
+#lawyerDashboard .dashContent .card-header .userNameSec {
+font-size: 18px;
+font-weight: 500;
+}
+#lawyerDashboard .dashContent .card-header .appTimeSec {
+font-size: 14px;
+font-weight: normal;
+padding: 15px 0px;
+}
+
+#lawyerDashboard .dashContent .card-header .appActionSec {
+font-size: 14px;
+font-weight: normal;
+padding: 15px 0px 0px 0px;
+}
+
+#lawyerDashboard .dashContent .card-header .appActionBtn {
+font-size: 16px;
+font-weight: normal;
+margin: 5px 10px;
+cursor: pointer;
+color: #5d5d5d;
+}
+
+#lawyerDashboard .dashContent .card-header .apptToggleBtn {
+border:none;
+background-color: transparent;
+padding: 0px;
+}
+
+
+#lawyerDashboard .dashContent .card, #lawyerDashboard .dashContactSec .card {
+margin-top: 5px;
+border-radius: 0px;
+margin-bottom: 5px;
+}
+
+#lawyerDashboard .dashContent .tabCont{
+display: grid;
+}
+
+#lawyerDashboard .dashContent .tabCont a{
+color: #000;
+font-weight: normal;
+padding:10px 2px;
+}
+#lawyerDashboard .dashContent .tabHdr {
+border-bottom: 1px solid #e1e1e1;
+}
+
+#lawyerDashboard .dashContent .tabCont .pad-0{
+padding: 0px 0px;
+}
+
+#lawyerDashboard .dashContent .nav-link.active{
+border-bottom: 4px solid #ffc107;
+color:#d39e00;
+padding:10px 2px;
+}
+
+#lawyerDashboard .dashContent .accordion>.card:not(:last-of-type),
+#lawyerDashboard .dashContactSec .accordion>.card:not(:last-of-type) {
+border-bottom: 1px solid #00000020;
+}
+
+
+#lawyerDashboard .dashContent .card .apptDetailSec,
+#lawyerDashboard .dashContactSec .card .apptDetailSec {
+font-size: 14px;
+}
+
+#lawyerDashboard .dashContent .filterCont {
+padding: 10px 0px;
+}
+
+#lawyerDashboard .dashContent .fltDate {
+cursor: pointer;
+font-size: 14px;
+font-weight: 500;
+}
+
+#lawyerDashboard .collectSecBg {
+    background-color: #ffc1076b;
+} 
+
+/* Edit Profile Section*/
+#lawyerDashboard .dashEditSec{
+    padding: 10px 0px;
+}
+
+#lawyerDashboard .form-label {
+    margin-bottom: 2px;
+    color: #5c5c5c;
+}
+
+#lawyerDashboard .photoChangeBtn {
+    color:#007bff;
+    text-decoration: none;
+}
+#lawyerDashboard .form-group{
+    margin-bottom: 10px;
+}
+#lawyerDashboard .form-control{
+   border-radius: 0px;
+   resize: none;
+}
+
+#lawyerDashboard .dashEditSec .react-tag-input {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20px;
+    padding: inherit;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1rem;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e1e1e1;
+    border-radius: 0px;
+}
+
+
+#lawyerDashboard .dashEditSec .react-tag-input__tag {
+    background-color: #ffc107;
+}
+#lawyerDashboard .dashEditSec .react-tag-input__tag__remove{
+    background-color: #ffc107;
+}
+
+#lawyerDashboard .dashShareProfSec,#lawyerDashboard .dashReferProfSec,#lawyerDashboard .dashContactSec{
+    padding: 10px;
+}
+#lawyerDashboard .dashShareProfSec .shareHeading,#lawyerDashboard .dashReferProfSec .shareHeading{
+    color: #5c5c5c;
+}
+#lawyerDashboard .dashShareProfSec .shareIcon,#lawyerDashboard .dashReferProfSec .shareIcon{
+    color: #ffde7b;
+    font-size: 6rem;
+}
+
+
+#lawyerDashboard .dashContactSec .contactCountSec {
+        font-weight: 500;
+        padding: 5px 5px 0px 5px;
+        font-size: 14px;
+}
+
+#lawyerDashboard .dashContactSec .defaultContactImg {
+    color: #9c9c9c;
+    font-size: 2.5rem;
+}
+
+#lawyerDashboard .dashContactSec .userNameSec {
+    padding-top: 0.45rem;
+}
+#lawyerDashboard .dashContactSec .appActionSec {
+    padding: 0.45rem 0px
+}
+#lawyerDashboard .dashContactSec .apptToggleBtn {
+    color: #aeaeae;
+    border: none;
+    background: transparent;
+}
