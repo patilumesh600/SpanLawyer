@@ -41,6 +41,19 @@ function ScheduleAppointment() {
                 />
               </RBS.Form.Group>
               <RBS.Form.Group
+                controlId="formGroupEmail"
+                style={{ marginBottom: '5px' }}
+              >
+                <RBS.Form.Label style={{ fontWeight: '500' }}>
+                  Case Number
+                </RBS.Form.Label>
+                <RBS.Form.Control
+                  type="email"
+                  placeholder="Case Number"
+                  size="sm"
+                />
+              </RBS.Form.Group>
+              <RBS.Form.Group
                 controlId="formGroupPassword"
                 style={{ marginBottom: '5px' }}
               >

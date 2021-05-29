@@ -19,7 +19,7 @@ import userImg from '../../images/bgImages/userImage3.jpg';
 function LawyerProfileEditor() {
 
   const [tags, setTags] = useState([]);
-  const [courtTags, setCourtTags] = useState(["Pune Civil Court"]);
+  const [courtTags, setCourtTags] = useState([]);
   return <>
     <RBS.Col md={12} xs={12} >
       <h6><FontAwesomeIcon icon={faUserAlt} /> Personal Profile</h6>
@@ -132,7 +132,17 @@ function LawyerProfileEditor() {
           </RBS.Col>
         </RBS.Form.Row>
         <RBS.Form.Row>
-          <RBS.Col xs={12} md={6}>
+        <RBS.Col xs={12} md={4}>
+            <RBS.Form.Group>
+              <RBS.Form.Label>Qualifications</RBS.Form.Label>
+              <ReactTagInput className="form-control form-control-sm"
+                tags={tags}
+                placeholder="Add qualification and press enter"
+                onChange={(newTags) => setTags(newTags)}
+              />
+            </RBS.Form.Group>
+          </RBS.Col>
+          <RBS.Col xs={12} md={4}>
             <RBS.Form.Group>
               <RBS.Form.Label>Working Experiance In</RBS.Form.Label>
               <ReactTagInput className="form-control form-control-sm"
@@ -142,7 +152,7 @@ function LawyerProfileEditor() {
               />
             </RBS.Form.Group>
           </RBS.Col>
-          <RBS.Col xs={12} md={6}>
+          <RBS.Col xs={12} md={4}>
             <RBS.Form.Group>
               <RBS.Form.Label>Working Courts</RBS.Form.Label>
               <ReactTagInput className="form-control form-control-sm"
@@ -157,8 +167,8 @@ function LawyerProfileEditor() {
         <RBS.Form.Row className="text-right">
           <RBS.Col md={{ span: 4, offset: 8 }}>
             <RBS.Form.Row >
-              <RBS.Col md={9} xs={9}><RBS.Button variant="warning" type="button"> Submit </RBS.Button></RBS.Col>
-              <RBS.Col md={3} xs={3}><RBS.Button variant="secondary" type="button"> Cancel </RBS.Button></RBS.Col>
+              <RBS.Col md={8} xs={9}><RBS.Button variant="warning" type="button"> Submit </RBS.Button></RBS.Col>
+              <RBS.Col md={4} xs={3}><RBS.Button variant="secondary" type="button"> Cancel </RBS.Button></RBS.Col>
             </RBS.Form.Row>
           </RBS.Col>
         </RBS.Form.Row>

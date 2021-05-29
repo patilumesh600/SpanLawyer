@@ -75,7 +75,7 @@ export function LawyerDashboard() {
                       <div className="dashHdrMenuTxt">Ratings</div>
                     </RBS.Col>
                   </RBS.Row>
-                  <hr />
+                  <hr className="hryellow" />
                   <RBS.Row>
 
                     <RBS.Col md={12} xs={2} className="dashHdrMenu">

@@ -60,6 +60,9 @@ min-height: 100% !important;
       .noBg {
         background-color: transparent !important;
     }
+    .modal-content{
+      border-radius:0px !important;
+    }
 `;
 
 export default GlobalStyle;
